@@ -1,0 +1,58 @@
+html {
+    height: 100%;
+}
+
+header {
+    background-color: azure;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    float: left;
+    display: block;
+}
+
+.right {
+    float: right;
+}
+
+
+
+
+
+
+/* header{
+    height: 5vh;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+li {
+    list-style-type: none;
+    display: block;
+}
+ul {
+    height: 5vh;
+    vertical-align: middle;
+    
+}
+
+.left{
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.header-img {
+    height: 3vh
+}
+
+.profile-pic {
+    border-radius: 50%;
+} */
