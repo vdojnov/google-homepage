@@ -2,11 +2,19 @@
 html {
     display: flex;
     flex-direction: column;
+    height: 100vh;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
 }
 
 header {
     /* background-color: azure; */
     /* padding-top: 5px; */
+    display: fixed;
+    height: 10vh;
     
     
 }
@@ -46,7 +54,7 @@ ul div {
 #right-nav {
     display: flex;
     justify-content: space-evenly;
-    align-items: middle;
+    align-items: center;
 }
 
 li {
@@ -68,47 +76,49 @@ a {
     justify-content: flex-start;
     margin: 10px;
     border-top: 10px;
+    height: 5vh;
 
 }
 
-/* #right-nav {
+footer {
+    align-self: flex-end;
+    height: 5vh;
+}
+main {
     display: flex;
-    justify-content: flex-end;
-} */
-
-
-/* header{
-    height: 5vh;
-    width: 100%;
-    justify-content: flex-end;
-    align-items: center;
-    
-}
-li {
-    list-style-type: none;
-    display: block;
-}
-ul {
-    height: 5vh;
-    vertical-align: middle;
-    
+    justify-content: center;
+    height: 78vh;
+    align-content: flex-end;
 }
 
-.left{
-    float: left;
+#google-img {
+    height: 20vh;
+    margin-top: 10vh;
 }
 
-.right {
-    float: right;
+.search-bar {
+    border-style: double;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 30px;
+    padding: 3px;
+
+}
+form div input {
+    border-style: none;
+    width: 80%;
+    /* height: inherit; */
 }
 
-.header-img {
-    height: 3vh
+.search {
+    height: 25px;
+    /* width: 25px; */
 }
 
-.profile-pic {
-    border-radius: 50%;
-} */
+#search-div {
+    /* align-self: center */
+}
 
 li:hover {
     text-decoration: underline;
